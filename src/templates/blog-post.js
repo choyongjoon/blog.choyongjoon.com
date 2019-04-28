@@ -53,9 +53,9 @@ class BlogPostTemplate extends React.Component {
             Edit on GitHub
           </a>
         </p>
-        <div style={{ margin: '90px 0 40px 0' }}>
+        {/* <div style={{ margin: '90px 0 40px 0' }}>
           <Signup />
-        </div>
+        </div> */}
         <h3
           style={{
             fontFamily: 'Montserrat, sans-serif',
