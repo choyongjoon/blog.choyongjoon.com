@@ -3,7 +3,7 @@ module.exports = {
     title: 'choyongjoon',
     author: 'Cho, Yongjun',
     description: 'Personal blog by choyongjoon.',
-    siteUrl: 'https://choyongjoon.com',
+    siteUrl: 'https://blog.choyongjoon.com',
     social: {
       twitter: '@choyongjoon',
     },
@@ -80,7 +80,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 const siteUrl = site.siteMetadata.siteUrl
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at choyongjoon.com. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at blog.choyongjoon.com. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `
 
@@ -125,7 +125,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Cho, Yongjun's choyongjoon.com Blog RSS Feed",
+            title: "Cho, Yongjun's blog.choyongjoon.com Blog RSS Feed",
           },
         ],
       },
@@ -133,8 +133,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `choyongjoon.com`,
-        short_name: `choyongjoon.com`,
+        name: `blog.choyongjoon.com`,
+        short_name: `blog.choyongjoon.com`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#000000`,
