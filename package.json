@@ -1,11 +1,11 @@
 {
-  "name": "overreacted",
+  "name": "choyongjoon",
   "private": true,
-  "description": "Overreacted",
+  "description": "Personal Blob By choyongjoon",
   "version": "1.0.0",
-  "author": "Dan Abramov <dan.abramov@me.com>",
+  "author": "Cho, Yongjun <w2000wkd@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gaearon/overreacted.io/issues"
+    "url": "https://github.com/choyongjoon/choyongjoon.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -42,7 +42,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://overreacted.io",
+  "homepage": "https://choyongjoon.com",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -51,7 +51,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "deploy": "yarn build && cd public && now alias $(now) overreacted.io",
+    "deploy": "yarn build && cd public && now alias $(now) choyongjoon.com",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
