@@ -1,13 +1,76 @@
 ---
-title: '독립된 블로그 만들기'
+title: '스타일 테스트'
 date: '2019-04-28'
-spoiler: 왜 편한 블로그 서비스를 택하지 않았을까.
+spoiler: '최대한 단순하게'
 ---
 
-### 요약
+헤더
 
-- 프론트엔드 개발 기술을 사용해서 내게 맞는 블로그를 만들고 싶었다.
-- Gatsby.js와 같은 도구가 좋아졌다.
-- GitHub에 공개된 블로그를 가져와서 시작할 수 있다.
+#H1
+
+#H2
+
+#H3
+
+#H4
+
+#H5
+
+#H6
 
 ---
+
+숫자 목록
+
+1. 하나
+1. 둘
+1. 셋
+
+그냥 목록
+
+- 옴
+- 뇸
+- 뇸
+
+---
+
+링크
+
+[GatsbyJS](https://www.gatsbyjs.org/)
+
+---
+
+이미지
+
+![9와 숫자들 1집](./9-and-the-numbers-1-cover.jpg)
+
+---
+
+유튜브
+
+`youtube: https://www.youtube.com/watch?v=0lYLRsRoYCY`
+
+---
+
+코드
+
+```javascript
+const s = 'JavaScript syntax highlighting'
+alert(s)
+```
+
+---
+
+테이블
+
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+
+---
+
+인용
+
+> 인용(引用)은 하나이상의 저작물을 원저자를 밝히고 널리 알려진 형식을 사용하여 다른 저작물에 이용하는 것을 말한다.

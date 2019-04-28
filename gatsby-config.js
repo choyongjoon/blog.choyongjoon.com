@@ -28,6 +28,12 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: 800,
+            },
+          },
+          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
@@ -131,7 +137,7 @@ module.exports = {
         short_name: `choyongjoon.com`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ffa7c4`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/assets/icon.png`,
       },

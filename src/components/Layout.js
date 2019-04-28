@@ -13,9 +13,10 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.0),
-            marginBottom: rhythm(1.5),
+            fontFamily: 'Gothic A1, sans-serif',
+            fontWeight: 800,
             marginTop: 0,
+            marginBottom: rhythm(1.5),
           }}
         >
           <Link
@@ -34,7 +35,8 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Gothic A1, sans-serif',
+            fontWeight: 800,
             marginTop: 0,
             marginBottom: rhythm(-1),
           }}
@@ -43,7 +45,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: '#ffa7c4',
+              color: '#000000',
             }}
             to={'/'}
           >

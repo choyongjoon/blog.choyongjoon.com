@@ -1,9 +1,5 @@
 import React from 'react'
 
-// Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
-
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
@@ -26,10 +22,7 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p style={{ maxWidth: 310 }}>
-          Personal blog by{' '}
-          <a href="https://mobile.twitter.com/choyongjoon">Cho, Yongjun</a>.
-        </p>
+        <p style={{ maxWidth: 310 }}>웹 프론트엔드. 음악.</p>
       </div>
     )
   }
