@@ -60,6 +60,9 @@ const typographyTheme = {
       padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
       textDecoration: 'none',
     },
+    p: {
+      wordBreak: 'keep-all',
+    },
   }),
 }
 
