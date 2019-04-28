@@ -30,7 +30,7 @@ function SEO({ meta, image, title, description, slug }) {
         const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
-            htmlAttributes={{ lang: 'en' }}
+            htmlAttributes={{ lang: 'ko' }}
             {...(title
               ? {
                   titleTemplate: `%s - ${siteMetadata.title}`,
