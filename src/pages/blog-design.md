@@ -2,6 +2,7 @@
 title: '블로그 디자인'
 date: '2019-04-28'
 spoiler: '책 디자인으로부터'
+thumbnail: 'cleaning-music.png'
 ---
 
 ![청소하면서 듣는 음악 (이재민)](./cleaning-music.png)
