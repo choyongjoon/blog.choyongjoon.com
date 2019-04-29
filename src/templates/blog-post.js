@@ -8,7 +8,7 @@ import SEO from '../components/SEO'
 import { rhythm, scale } from '../utils/typography'
 
 // const GITHUB_USERNAME = 'choyongjoon'
-// const GITHUB_REPO_NAME = 'blog.choyongjoon.com'
+// const GITHUB_REPO_NAME = 'choyongjoon.com'
 
 class BlogPostTemplate extends React.Component {
   render() {

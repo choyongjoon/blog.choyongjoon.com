@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Cho, Yongjun <w2000wkd@gmail.com>",
   "bugs": {
-    "url": "https://github.com/choyongjoon/blog.choyongjoon.com/issues"
+    "url": "https://github.com/choyongjoon/choyongjoon.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -41,7 +41,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://blog.choyongjoon.com",
+  "homepage": "https://choyongjoon.com",
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
@@ -50,7 +50,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "deploy": "yarn build && cd public && now alias $(now) blog.choyongjoon.com",
+    "deploy": "yarn build && cd public && now alias $(now) choyongjoon.com",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }

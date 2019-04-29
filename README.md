@@ -1,4 +1,4 @@
-# blog.choyongjoon.com
+# choyongjoon.com
 
 My personal blog. Forked from [overreacted.io](https://github.com/gaearon/overreacted.io) based on [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
 
