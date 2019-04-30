@@ -43,6 +43,7 @@ const typographyTheme = {
     },
     'h1,h2,h3,h4,h5,h6': {
       marginTop: rhythm(2),
+      lineHeight: 1.6,
     },
     h4: {
       letterSpacing: '0.140625em',
