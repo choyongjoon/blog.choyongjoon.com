@@ -5,7 +5,7 @@ import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 const typographyTheme = {
   title: 'from 청소하면서 듣는 음악',
   baseFontSize: '18px',
-  baseLineHeight: 1.6,
+  baseLineHeight: 1.6875,
   scaleRatio: 1,
   headerFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
   bodyFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
