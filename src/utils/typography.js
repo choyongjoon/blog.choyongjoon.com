@@ -1,4 +1,3 @@
-import gray from 'gray-percentage'
 import Typography from 'typography'
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 
@@ -9,14 +8,13 @@ const typographyTheme = {
   scaleRatio: 1,
   headerFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
   bodyFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
-  bodyColor: 'rgb(20, 23, 26)',
+  bodyColor: 'var(--textNormal)',
   headerWeight: 400,
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     blockquote: {
       ...scale(1 / 5),
-      color: gray(41),
       fontStyle: 'italic',
       paddingLeft: rhythm(1),
       marginLeft: rhythm(-1),
@@ -53,7 +51,7 @@ const typographyTheme = {
       fontStyle: 'italic',
     },
     a: {
-      color: '#000000',
+      color: 'var(--textLink)',
     },
     'mark,ins': {
       background: '#007acc',
