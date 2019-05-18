@@ -52,6 +52,9 @@ const typographyTheme = {
     },
     a: {
       color: 'var(--textLink)',
+      textDecoration: 'none',
+      fontFamily: 'Gothic A1',
+      fontWeight: 800,
     },
     'mark,ins': {
       background: '#007acc',
@@ -62,10 +65,18 @@ const typographyTheme = {
     p: {
       wordBreak: 'keep-all',
     },
+    hr: {
+      background: 'var(--textNormal)',
+    },
+    'td,th': {
+      borderBottom: '1px solid var(--textNormal)',
+    },
   }),
 }
 
 const typography = new Typography(typographyTheme)
+
+console.log(typography.toString())
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
