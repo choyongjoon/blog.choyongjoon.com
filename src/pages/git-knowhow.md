@@ -76,7 +76,7 @@ commit을 다시 찾을 때는 `git reflog`를 사용하면 된다. commit 이�
 
 ### commit message를 규칙에 맞게 작성하자.
 
-Commit message 작성에 대해서는 [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)을 따르자. 가장 간단하게는 Add …, Fix …처럼 대문자 동사 현재형으로 시작하기만 해도 한결 깔끔해진다. 추가로 issue 번호 등을 어떻게 넣을지 팀 내에서 규칙을 정하자.
+commit message 작성에 대해서는 [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)을 따르자. 가장 간단하게는 Add …, Fix …처럼 대문자 동사 현재형으로 시작하기만 해도 한결 깔끔해진다. 추가로 issue 번호 등을 어떻게 넣을지 팀 내에서 규칙을 정하자.
 
 ## git-push
 
@@ -93,8 +93,9 @@ commit된 내용은 local에서만 안전하다. 컴퓨터가 고장난다면 �
 ### 취소하는 명령어를 알아두자
 
 실수로 add 했을 때, 실수로 commit했을 때 대처할 수 있는 방법을 기억해두면 편리하다.
-_ add 되돌리기: `git reset HEAD [file]`
-_ Commit 되돌리기: `git reset HEAD^`
+
+- add 되돌리기: `git reset HEAD [file]`
+- commit 되돌리기: `git reset HEAD^`
 
 ## git-blame
 
