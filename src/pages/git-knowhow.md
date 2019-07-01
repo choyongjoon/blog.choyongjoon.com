@@ -28,9 +28,9 @@ Git을 잘 사용하기 위해 중요한 것들을 정리했다. 효율적이면
 
 ### 에디터의 Git 기능을 최대한 활용하자.
 
-기본 CLI 보다 에디터의 GUI를 통해 더 정보를 쉽게 파악할 수 있을 때가 많다. 최근에는 많은 에디터가 훌륭한 Git 기능을 제공한다. 더 나아가 GitKraken과 같은 Git 전용 도구를 활용하는 것도 고려해보자.
+기본 CLI 보다 에디터의 GUI를 통해 더 정보를 쉽게 파악할 수 있을 때가 많다. 최근에는 많은 에디터가 훌륭한 Git 기능을 제공한다. 더 나아가 [GitKraken](https://www.gitkraken.com/git-client)과 같은 Git 전용 도구를 활용하는 것도 고려해보자.
 
-VS Code에는 ‘Source Control’ 사이드 바를 기본적으로 제공한다. 현재 작업중인 현황을 diff로 보고, commit할 파일을 add하는 용도로 활용할 수 있다. Git Lens와 같은 확장 기능은 더 강력한 기능을 제공하는데, 이에 대해서는 뒤에서 설명할 것이다.
+VS Code에는 ‘Source Control’ 사이드 바를 기본적으로 제공한다. 현재 작업중인 현황을 diff로 보고, commit할 파일을 add하는 용도로 활용할 수 있다. [GitLens](https://gitlens.amod.io/)와 같은 확장 기능은 더 강력한 기능을 제공하는데, 이에 대해서는 뒤에서 설명할 것이다.
 
 ### 반복적인 작업은 스크립트를 만들자.
 
@@ -72,7 +72,7 @@ commit을 다시 찾을 때는 `git reflog`를 사용하면 된다. commit 이�
 
 ### commit message를 에디터에서 작성하자.
 
-`git config --global core.editor "code --wait"`을 입력하면 git commit을 했을 때 VS Code 내에서 commit message를 입력할 수 있다. 익숙한 에디터로 작성할 수 있는 것도 장점이지만, spell checker 확장 기능을 사용할 경우, 오타가 나는 것을 방지할 수 있다. 오타가 포함된 commit message를 나중에 발견했을 때의 부끄러움을 막을 수 있다.
+`git config --global core.editor "code --wait"`을 입력하면 git commit을 했을 때 VS Code 내에서 commit message를 입력할 수 있다. 익숙한 에디터로 작성할 수 있는 것도 장점이지만, [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 확장 기능을 사용할 경우, 오타가 나는 것을 방지할 수 있다. 오타가 포함된 commit message를 나중에 발견했을 때의 부끄러움을 막을 수 있다.
 
 ### commit message를 규칙에 맞게 작성하자.
 
@@ -103,4 +103,4 @@ commit된 내용은 local에서만 안전하다. 컴퓨터가 고장난다면 �
 
 각 줄을 누가 어떤 commit으로 수정했는지 확인할 수 있는 `git blame`은 유용한 경우가 많다. 코드가 왜 이렇게 되었는지 해당 commit을 찾아가 확인해볼 수도 있고, 이 코드를 누구에게 물어봐야하는지 알 수도 있다. 하지만 CLI에서는 매우 불편하므로 GUI에서 확인하자.
 
-VS Code의 Git Lens 확장 기능은 현재 커서가 있는 줄에 수정한 사람, 수정 시점, commit messsage를 바로 보여준다. 또한 사이드바에서는 file history와 line history가 나와서 더 이전에 어떤 commit이 있었는지 쉽게 확인할 수 있다.
+VS Code의 [GitLens](https://gitlens.amod.io/) 확장 기능은 현재 커서가 있는 줄에 수정한 사람, 수정 시점, commit messsage를 바로 보여준다. 또한 사이드바에서는 file history와 line history가 나와서 더 이전에 어떤 commit이 있었는지 쉽게 확인할 수 있다.
