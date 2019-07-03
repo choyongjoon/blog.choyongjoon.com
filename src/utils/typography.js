@@ -1,3 +1,5 @@
+import './global.css'
+
 import Typography from 'typography'
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 
@@ -12,20 +14,6 @@ const typographyTheme = {
   headerWeight: 400,
   bodyWeight: 400,
   boldWeight: 700,
-  googleFonts: [
-    {
-      name: 'Gothic+A1',
-      styles: ['400', '800'],
-    },
-    {
-      name: 'Nanum+Myeongjo',
-      styles: ['400', '700'],
-    },
-    {
-      name: 'Crimson+Text',
-      styles: ['400', '700'],
-    },
-  ],
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     blockquote: {
       ...scale(1 / 5),

@@ -57,17 +57,26 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          color: 'var(--textNormal)',
+          background: 'var(--bg)',
+          transition: 'color 0.3s ease-out, background 0.3s ease-out',
+          minHeight: '100vh',
         }}
       >
-        <div style={{ float: 'right' }}>
-          <DarkModeToggle />
+        <div
+          style={{
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          <div style={{ float: 'right' }}>
+            <DarkModeToggle />
+          </div>
+          {header}
+          {children}
         </div>
-        {header}
-        {children}
       </div>
     )
   }
