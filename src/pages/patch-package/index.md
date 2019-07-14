@@ -1,7 +1,7 @@
 ---
 title: 'patch-package: package를 빠르고 안전하게 수정하자'
 date: '2019-07-15'
-spoiler: ''
+spoiler: '수정 범위가 작고 시간이 부족할 때 좋다'
 thumbnail: 'patch-package-thumbnail.png'
 ---
 
