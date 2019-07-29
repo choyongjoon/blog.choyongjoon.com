@@ -2,7 +2,11 @@
 title: 'UI 프레임워크 고민'
 date: '2019-07-29'
 spoiler: '쓰느냐 만드느냐'
+thumbnail: 'randy-fath-ymf4_9Y9S_A-unsplash.jpg'
 ---
+
+![Photo by Randy Fath on Unsplash](./randy-fath-ymf4_9Y9S_A-unsplash.jpg)
+Photo by Randy Fath on Unsplash
 
 요즘 프론트엔드 기술 선택할 때 가장 큰 고민은 어떤 UI 프레임워크를 사용할 것인지 혹은 사용하지 않고 직접 만들 것인지다. 얼핏 생각하면 잘 만들어진 UI 프레임워크의 도움을 받는 것이 일을 줄일 수 있을 것 같지만, 막상 도입해보면 문제가 있다. 그렇다고 작은 규모의 팀에서 새로 프레임워크를 만든다는 것은 너무나 막막한 일이다. 이 글에서는 UI 프레임워크를 비교 추천하기 보다는 그 고민과 나름의 해답을 적어보고자 한다.
 
