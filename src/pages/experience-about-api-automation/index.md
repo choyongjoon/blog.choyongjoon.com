@@ -4,7 +4,7 @@ date: '2019-08-21'
 spoiler: '어떤 도구를 사용하며 어떤 노력을 했는지'
 ---
 
-[@eonlic](https://twitter.com/eonilc)님의 [API 관련 코드 자동화에 대한 트윗 타래](https://twitter.com/eonilc)를 보고 우리 회사에서 어떻게 자동화 하고 있는지와 그에 대한 생각을 적어보려고 한다.
+[@eonlic](https://twitter.com/eonilc)님의 [API 관련 코드 자동화에 대한 트윗 타래](https://twitter.com/eonilc/status/1162517027598159874)를 보고 우리 회사에서 어떻게 자동화 하고 있는지와 그에 대한 생각을 적어보려고 한다.
 
 트윗 타래를 거칠게 요약하면 (이 요약 외에도 여러 내용이 많다.)
 
