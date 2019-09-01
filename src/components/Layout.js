@@ -17,6 +17,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: 'Gothic A1, sans-serif',
             fontWeight: 800,
+            fontSize: '1rem',
             marginTop: 0,
             marginBottom: rhythm(1.5),
           }}
@@ -34,7 +35,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h4
           style={{
             fontFamily: 'Gothic A1, sans-serif',
             fontWeight: 800,
@@ -51,7 +52,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h4>
       )
     }
     return (

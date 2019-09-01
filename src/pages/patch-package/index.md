@@ -16,13 +16,13 @@ patch-package는 `node_modules` 안의 수정사항이 Git으로 관리되고, �
 
 yarn을 기준으로 설치와 사용법은 다음과 같다.
 
-## patch-package와 postinstall-postinstall를 함께 dev로 설치한다.
+#### patch-package와 postinstall-postinstall를 함께 dev로 설치한다.
 
 ```sh
 yarn add -D patch-package postinstall-postinstall
 ```
 
-## `package.json`의 "scripts"에 다음과 같이 추가한다.
+#### `package.json`의 "scripts"에 다음과 같이 추가한다.
 
 ```diff
  "scripts": {
@@ -30,13 +30,13 @@ yarn add -D patch-package postinstall-postinstall
  }
 ```
 
-## package 코드를 수정한 뒤에 아래 명령으로 patch를 만든다.
+#### package 코드를 수정한 뒤에 아래 명령으로 patch를 만든다.
 
 ```shell
 yarn patch-package package-name
 ```
 
-## 생성된 patch를 commit한다.
+#### 생성된 patch를 commit한다.
 
 ```shell
 git add patches/some-package+3.14.15.patch

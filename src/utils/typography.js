@@ -7,11 +7,11 @@ const typographyTheme = {
   title: 'from 청소하면서 듣는 음악',
   baseFontSize: '18px',
   baseLineHeight: 1.625,
-  scaleRatio: 1,
+  scaleRatio: 1.3,
   headerFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
   bodyFontFamily: ['Crimson+Text', 'Nanum Myeongjo', 'serif'],
   bodyColor: 'var(--textNormal)',
-  headerWeight: 400,
+  headerWeight: 700,
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
@@ -34,20 +34,17 @@ const typographyTheme = {
       content: '"— "',
     },
     ul: {
-      listStyle: 'circle',
+      listStyle: 'square',
+      marginLeft: rhythm(0.6),
     },
-    [MOBILE_MEDIA_QUERY]: {
-      'ul,ol': {
-        marginLeft: rhythm(1),
-      },
+    ol: {
+      marginLeft: rhythm(0.7),
     },
     'h1,h2,h3,h4,h5,h6': {
-      marginTop: rhythm(2),
-      lineHeight: 1.6,
-    },
-    h4: {
-      letterSpacing: '0.140625em',
-      textTransform: 'uppercase',
+      marginTop: rhythm(1.6),
+      marginBottom: rhythm(0.342),
+      lineHeight: 1.625,
+      wordBreak: 'keep-all',
     },
     h6: {
       fontStyle: 'italic',
@@ -63,9 +60,6 @@ const typographyTheme = {
       color: 'white',
       padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
       textDecoration: 'none',
-    },
-    p: {
-      wordBreak: 'keep-all',
     },
     hr: {
       background: 'var(--textNormal)',

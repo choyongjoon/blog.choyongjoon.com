@@ -9,7 +9,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(2),
         }}
       >
         <img
@@ -22,7 +22,11 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        <p style={{ maxWidth: 310 }}>웹 프론트엔드, 음악, 책 등등 by 조용준</p>
+        <p style={{ maxWidth: 310, marginBottom: 0 }}>
+          웹 프론트엔드, 음악, 책 등등
+          <br />
+          by 조용준
+        </p>
       </div>
     )
   }

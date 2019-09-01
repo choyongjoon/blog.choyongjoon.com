@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
+import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 // import Signup from '../components/Signup'
@@ -33,13 +34,19 @@ class BlogPostTemplate extends React.Component {
           }
           slug={post.fields.slug}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1
+          style={{
+            marginTop: rhythm(2),
+          }}
+        >
+          {post.frontmatter.title}
+        </h1>
         <p
           style={{
             ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
+            marginTop: rhythm(-0.342),
           }}
         >
           <small>{post.frontmatter.date}</small>
@@ -53,6 +60,8 @@ class BlogPostTemplate extends React.Component {
         {/* <div style={{ margin: '90px 0 40px 0' }}>
           <Signup />
         </div> */}
+        <div style={{ marginTop: rhythm(3) }} />
+        <Bio />
         <ul
           style={{
             display: 'flex',
@@ -61,6 +70,8 @@ class BlogPostTemplate extends React.Component {
             listStyle: 'none',
             padding: 0,
             margin: 0,
+            marginTop: rhythm(1),
+            marginBottom: rhythm(1),
           }}
         >
           <li>
