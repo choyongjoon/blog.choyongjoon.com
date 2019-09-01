@@ -22,14 +22,7 @@ class Layout extends React.Component {
             marginBottom: rhythm(1.5),
           }}
         >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'black',
-            }}
-            to={'/'}
-          >
+          <Link className="bold" to={'/'}>
             {title}
           </Link>
         </h1>
@@ -44,14 +37,7 @@ class Layout extends React.Component {
             marginBottom: rhythm(-1),
           }}
         >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'black',
-            }}
-            to={'/'}
-          >
+          <Link className="bold" to={'/'}>
             {title}
           </Link>
         </h4>

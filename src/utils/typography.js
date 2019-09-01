@@ -62,6 +62,9 @@ const typographyTheme = {
     'a:hover': {
       textDecoration: 'underline',
     },
+    'a.bold': {
+      color: 'var(--textTitle)',
+    },
     'mark,ins': {
       background: '#007acc',
       color: 'white',
