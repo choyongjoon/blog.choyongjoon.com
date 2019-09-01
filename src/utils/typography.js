@@ -37,8 +37,10 @@ const typographyTheme = {
       listStyle: 'square',
       marginLeft: rhythm(0.6),
     },
-    ol: {
-      marginLeft: rhythm(0.7),
+    [MOBILE_MEDIA_QUERY]: {
+      'ul,ol': {
+        marginLeft: rhythm(1),
+      },
     },
     'h1,h2,h3,h4,h5,h6': {
       marginTop: rhythm(1.6),
@@ -50,10 +52,15 @@ const typographyTheme = {
       fontStyle: 'italic',
     },
     a: {
-      color: 'var(--textLink)',
       textDecoration: 'none',
-      fontFamily: 'Gothic A1',
-      fontWeight: 800,
+      color: 'var(--a)',
+      fontWeight: 'bold',
+      '::hober': {
+        textDecoration: 'underline',
+      },
+    },
+    'a:hover': {
+      textDecoration: 'underline',
     },
     'mark,ins': {
       background: '#007acc',

@@ -12,6 +12,7 @@ body.light {
   --textTitle: #131519;
   --textLink: #131519;
   --hr: #131519;
+  --a: #20679d;
 }
 
 body.dark {
@@ -20,6 +21,7 @@ body.dark {
   --textTitle: #acb2bf;
   --textLink: #acb2bf;
   --hr: #acb2bf;
+  --a: #5bacd1;
 }
 
 iframe {
@@ -105,6 +107,8 @@ pre[class*='language-'] {
   border-radius: 0.3em;
   white-space: normal;
   border: 1px solid var(--textNormal);
+  background: transparent;
+  color: var(--textNormal);
 }
 
 .token.comment,
