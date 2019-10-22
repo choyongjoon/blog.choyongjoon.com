@@ -8,7 +8,7 @@ thumbnail: 'death-to-ie11.png'
 ![From https://death-to-ie11.netlify.com/](./death-to-ie11.png)
 [IE11 end of support countdown](https://death-to-ie11.netlify.com/)
 
-IE11 지원하다 보니 이런저런 문제가 많이 생겼다. 어떻게 접근했는지와 어떤 문제가 있었는지 공유하고자 한다.
+IE11을 지원하다 보니 이런저런 문제가 많이 생겼다. 어떻게 접근했는지와 어떤 문제가 있었는지 공유하고자 한다.
 
 ## JS
 
@@ -61,4 +61,4 @@ IE는 테스트해보면 확실히 느리다. 이런 성능 저하가 치명적�
 
 ## 결론
 
-Babel과 polyfill을 덕분에 최신 TypesScript(또는 ECMAScript)를 사용하면서도 IE를 지원하는 것이 가능해졌다. 하지만 좋은 도구들과 함께해도 IE 지원은 험난했다. 사용할 라이브러리의 지원범위를 문서로, 직접 확인하여 선택하고 보완해야 한다. IE에서 주의해야 할 부분과 남들은 어떻게 해결하는지 알아보고 정리하는 것도 중요하다.
+Babel과 polyfill 덕분에 최신 TypesScript(또는 ECMAScript)를 사용하면서도 IE를 지원하는 것이 가능해졌다. 하지만 좋은 도구들과 함께해도 IE 지원은 험난했다. 사용할 라이브러리의 지원범위를 문서로, 직접 확인하여 선택하고 보완해야 한다. IE에서 주의해야 할 부분과 남들은 어떻게 해결하는지 알아보고 정리하는 것도 중요하다.
