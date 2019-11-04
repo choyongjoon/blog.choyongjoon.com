@@ -6,6 +6,8 @@ spoiler: '사용하는 하드웨어와 앱을 기록하는 공간'
 
 [Uses | BenCodeZen](https://www.bencodezen.io/uses/) 의 영향을 받아서 내가 사용하는 하드웨어와 앱을 기록하는 공간을 마련했다.
 
+마지막 수정: 2019년 11월 5일
+
 ## 하드웨어
 
 ### 회사
@@ -39,9 +41,11 @@ spoiler: '사용하는 하드웨어와 앱을 기록하는 공간'
 ### 모바일
 
 - 핸드폰
-  - [iPhone 7](https://www.apple.com/kr/iphone-7/specs/)
+  - [iPhone 11](https://www.apple.com/kr/iphone-11/)
 - 헤드폰
   - [Sony WH-1000XM2](https://www.sony.co.kr/electronics/headband-headphones/wh-1000xm2): 지하철, 회사에서 노이즈 캔슬링하는데 사용한다. 비틀고 접어서 가방에 넣기 편한데 목에 걸기는 불편하다.
+- 무선 이어폰
+  - [AirPods (1세대)](https://support.apple.com/kb/SP750?locale=ko_KR): 헤드폰 사용이 불편한 경우에만 사용한다.
 
 ## 에디터 & 터미널
 
