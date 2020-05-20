@@ -15,6 +15,9 @@ const typographyTheme = {
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
+    body: {
+      wordBreak: 'keep-all',
+    },
     blockquote: {
       ...scale(1 / 5),
       fontStyle: 'italic',
