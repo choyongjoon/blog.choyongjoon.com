@@ -6,7 +6,7 @@ import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 const typographyTheme = {
   title: 'from 청소하면서 듣는 음악',
   baseFontSize: '18px',
-  baseLineHeight: 1.625,
+  baseLineHeight: 1.875,
   scaleRatio: 1.3,
   headerFontFamily: ['Crimson Text', 'Nanum Myeongjo', 'serif'],
   bodyFontFamily: ['Crimson Text', 'Nanum Myeongjo', 'serif'],
@@ -36,11 +36,6 @@ const typographyTheme = {
     ul: {
       listStyle: 'square',
       marginLeft: rhythm(0.6),
-    },
-    [MOBILE_MEDIA_QUERY]: {
-      'ul,ol': {
-        marginLeft: rhythm(1),
-      },
     },
     'h1,h2,h3,h4,h5,h6': {
       marginTop: rhythm(1.6),
@@ -76,6 +71,14 @@ const typographyTheme = {
     },
     'td,th': {
       borderBottom: '1px solid var(--textNormal)',
+    },
+    [MOBILE_MEDIA_QUERY]: {
+      body: {
+        fontSize: '16px',
+      },
+      'ul,ol': {
+        marginLeft: rhythm(1),
+      },
     },
   }),
 }
