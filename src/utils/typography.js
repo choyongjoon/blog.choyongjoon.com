@@ -11,9 +11,9 @@ const typographyTheme = {
   headerFontFamily: ['Crimson Text', 'Nanum Myeongjo', 'serif'],
   bodyFontFamily: ['Crimson Text', 'Nanum Myeongjo', 'serif'],
   bodyColor: 'var(--textNormal)',
-  headerWeight: 700,
-  bodyWeight: 400,
-  boldWeight: 700,
+  headerWeight: 800,
+  bodyWeight: 700,
+  boldWeight: 800,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     body: {
       wordBreak: 'keep-all',
@@ -52,7 +52,7 @@ const typographyTheme = {
     a: {
       textDecoration: 'none',
       color: 'var(--a)',
-      fontWeight: 'bold',
+      fontWeight: 800,
       '::hober': {
         textDecoration: 'underline',
       },
@@ -78,9 +78,6 @@ const typographyTheme = {
     [MOBILE_MEDIA_QUERY]: {
       body: {
         fontSize: '16px',
-      },
-      'ul,ol': {
-        marginLeft: rhythm(1),
       },
     },
   }),
